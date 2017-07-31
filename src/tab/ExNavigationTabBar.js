@@ -35,7 +35,7 @@ export default class ExNavigationTabBar extends React.Component {
     return (
       <View style={[styles.container, { height }]}>
         {isTranslucent &&
-          <BlurView style={[styles.translucentUnderlay, { height }]} />}
+          <BlurView intensity={100} style={[styles.translucentUnderlay, { height }]} />}
 
         <View
           style={[
