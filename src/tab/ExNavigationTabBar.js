@@ -102,7 +102,7 @@ export default class ExNavigationTabBar extends React.Component {
           <TouchableWithoutFeedback
             key={index}
             onPressIn={item.onPress}
-            delayPressIn={0}
+            delayPressIn={0}>
             <View
               style={[
                 styles.tabItem,
